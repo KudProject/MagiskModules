@@ -14,6 +14,6 @@ This is a port of ViPER4Android to Magisk
 
 ### Changelog
 v1
-  - Magisk v13 Template v4 compatabilities
-  - Update to support magisk v13+
-  - Fix for 'Processing: No' while using Magisk on OnePlus device
+ - Magisk v13 Template v4 compatabilities
+ - Update to support magisk v13+
+ - Fix for 'Processing: No' while using Magisk on OnePlus device
