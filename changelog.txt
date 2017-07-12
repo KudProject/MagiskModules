@@ -1,0 +1,8 @@
+The new 2.5.0.5 APK download link is placed in the support link!
+(Press the question mark button in the expanded card)
+
+v2.5.0.5
+    - Update Libs to 2.5.0.5
+    - APK in support link
+	- Update to support magisk v13+
+	- Fix for 'Processing: No' while using Magisk on OnePlus device
