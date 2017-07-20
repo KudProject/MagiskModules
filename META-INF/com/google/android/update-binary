@@ -142,11 +142,10 @@ mkdir -p $MODPATH/system/vendor/etc 2>/dev/null
 
 # Copy files
 ui_print "- Copying files"
-mv $INSTALLER/system $MODPATH/system
 cp -af $LIB $MODPATH/system/lib/soundfx/libv4a_fx_ics.so
-cp -af /system/etc/audio_effects.conf $MODPATH/system/etc/audio_effects.conf 2>/dev/null
-cp -af /system/etc/htc_audio_effects.conf $MODPATH/system/etc/htc_audio_effects.conf 2>/dev/null
-cp -af /system/vendor/etc/audio_effects.conf $MODPATH/system/vendor/etc/audio_effects.conf 2>/dev/null
+cp -af $SYSTEM/etc/audio_effects.conf $MODPATH/system/etc/audio_effects.conf 2>/dev/null
+cp -af $SYSTEM/etc/htc_audio_effects.conf $MODPATH/system/etc/htc_audio_effects.conf 2>/dev/null
+cp -af $SYSTEM/vendor/etc/audio_effects.conf $MODPATH/system/vendor/etc/audio_effects.conf 2>/dev/null
 
 CONFIG_FILE=$MODPATH/system/etc/audio_effects.conf
 HTC_CONFIG_FILE=$MODPATH/system/etc/htc_audio_effects.conf
