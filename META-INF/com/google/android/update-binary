@@ -75,6 +75,13 @@ api_level_arch_detect
 # You can get the Android API version from $API, the CPU architecture from $ARCH
 # Useful if you are creating Android version / platform dependent mods
 
+# Detect and install correct V4A library
+if [ "$ARCH" = "x86" -o "$ARCH" = "x64" ]; then
+  LIB=libv4a_fx_jb_X86.so
+else
+  LIB=libv4a_fx_jb_NEON.so
+fi
+
 # We need busybox/binaries to be setup
 $BOOTMODE && boot_actions || recovery_actions
 
@@ -102,11 +109,6 @@ print_modname
 ui_print "******************************"
 ui_print "Powered by Magisk (@topjohnwu)"
 ui_print "******************************"
-
-LIB=$INSTALLER/libv4a_fx_jb_NEON.so
-if [ "$ARCH" = "x86" -o "$ARCH" = "x64" ]; then
-  LIB=$INSTALLER/libv4a_fx_jb_X86.so
-fi
 
 ##########################################################################################
 # Install
@@ -142,7 +144,8 @@ mkdir -p $MODPATH/system/vendor/etc 2>/dev/null
 
 # Copy files
 ui_print "- Extracting module files"
-cp -af $LIB $MODPATH/system/lib/soundfx/libv4a_fx_ics.so
+unzip -o "$ZIP" "$LIB" -d $MODPATH/system/lib/soundfx 2>/dev/null
+mv -f $MODPATH/system/lib/soundfx/$LIB $MODPATH/system/lib/soundfx/libv4a_fx_ics.so
 cp -af $SYSTEM/etc/audio_effects.conf $MODPATH/system/etc/audio_effects.conf 2>/dev/null
 cp -af $SYSTEM/etc/htc_audio_effects.conf $MODPATH/system/etc/htc_audio_effects.conf 2>/dev/null
 cp -af $SYSTEM/vendor/etc/audio_effects.conf $MODPATH/system/vendor/etc/audio_effects.conf 2>/dev/null
