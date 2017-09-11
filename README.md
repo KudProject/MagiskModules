@@ -10,10 +10,14 @@ This is a port of ViPER4Android to Magisk
 ### Support
 
 * Any issue or pull request is welcomed.
-* Star this module at [GitHub](https://github.com/wuchjun/ViPER4Android-OnePlus3_3T_Fix).
+* Star this module at [GitHub](https://github.com/KudProject/MagiskModules/tree/ViPER4Android-OP).
 
 ### Changelog
-v1
+v2 (by krasCGQ)
+ - Only compatible with Magisk v14.0+
+ - Update Magisk module template to 1400
+
+v1 (by wuchjun)
  - Magisk v13 Template v4 compatabilities
- - Update to support magisk v13+
+ - Update to support Magisk v13+
  - Fix for 'Processing: No' while using Magisk on OnePlus device
