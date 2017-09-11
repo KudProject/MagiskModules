@@ -1,3 +1,6 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+
+ro.build.fingerprint=Xiaomi/ido/ido:5.1.1/LMY47V/V8.5.2.0.LAIMIED:user/release-keys
+ro.build.description=ido-user 5.1.1 LMY47V V8.5.2.0.LAIMIED release-keys
