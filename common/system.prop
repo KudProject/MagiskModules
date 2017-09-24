@@ -1,3 +1,6 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+
+ro.build.fingerprint=Xiaomi/land/land:6.0.1/MMB29M/V8.5.3.0.MALMIED:user/release-keys
+ro.build.description=land-user 6.0.1 MMB29M V8.5.3.0.MALMIED release-keys

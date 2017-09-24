@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
+id=BuildFPChanger-land
+name=Build Fingerprint Changer - Redmi 3S/3X
+version=V8.5.3.0.MALMIED
 versionCode=1
-author=topjohnwu
-description=A short description
+author=KudProject - krasCGQ
+description=Override current ROM build fingerprint in order to bypass SafetyNet CTS.
 template=1400
