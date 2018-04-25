@@ -2,5 +2,6 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 
-ro.build.fingerprint=Xiaomi/ido/ido:5.1.1/LMY47V/V8.5.3.0.LAIMIED:user/release-keys
-ro.build.description=ido-user 5.1.1 LMY47V V8.5.3.0.LAIMIED release-keys
+ro.build.fingerprint=Xiaomi/ido/ido:5.1.1/LMY47V/V9.5.2.0.LAIMIFA:user/release-keys
+ro.build.description=ido-user 5.1.1 LMY47V V9.5.2.0.LAIMIFA release-keys
+ro.bootimage.build.fingerprint=Xiaomi/ido/ido:5.1.1/LMY47V/V9.5.2.0.LAIMIFA:user/release-keys

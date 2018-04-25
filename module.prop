@@ -1,7 +1,7 @@
 id=BuildFPChanger-ido
 name=Build Fingerprint Changer - Redmi 3
-version=V8.5.3.0.LAIMIED
-versionCode=2
+version=V9.5.2.0.LAIMIFA
+versionCode=3
 author=KudProject - krasCGQ
 description=Override current ROM build fingerprint in order to bypass SafetyNet CTS.
 minMagisk=1500
