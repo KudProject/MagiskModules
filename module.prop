@@ -4,4 +4,4 @@ version=V8.5.3.0.LAIMIED
 versionCode=2
 author=KudProject - krasCGQ
 description=Override current ROM build fingerprint in order to bypass SafetyNet CTS.
-template=1400
+minMagisk=1500
