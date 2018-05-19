@@ -1,3 +1,8 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+
+ro.build.description=mido-user 7.0 NRD90M V9.5.9.0.NCFMIFA release-keys
+ro.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V9.5.9.0.NCFMIFA:user/release-keys
+ro.bootimage.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V9.5.9.0.NCFMIFA:user/release-keys
+ro.vendor.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V9.5.9.0.NCFMIFA:user/release-keys
