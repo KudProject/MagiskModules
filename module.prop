@@ -4,4 +4,4 @@ version=15.2016.1805.318
 versionCode=1
 author=Albert I (krasCGQ)
 description=Systemlessly override current ROM build fingerprint with CTS compliant one.
-minMagisk=1500
+minMagisk=17000
