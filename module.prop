@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
+id=BuildFPChanger-X00T
+name=Build Fingerprint Changer - ZenFone Max Pro (M1)
+version=15.2016.1805.318
 versionCode=1
-author=topjohnwu
-description=A short description
+author=Albert I (krasCGQ)
+description=Systemlessly override current ROM build fingerprint with CTS compliant one.
 minMagisk=1500
