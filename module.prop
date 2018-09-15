@@ -1,7 +1,7 @@
 id=BuildFPChanger-mido
-name=Build Fingerprint Changer - Redmi Note 4/4X Snapdragon
+name=Build Fingerprint Changer - Redmi Note 4(X) Snapdragon
 version=V9.6.1.0.NCFMIFD
 versionCode=4
 author=Albert I (krasCGQ)
-description=Systemlessly override current ROM build fingerprint in order to bypass SafetyNet CTS check on MIUI Developer or custom ROMs.
+description=Systemlessly override current ROM build fingerprint with CTS compliant one.
 minMagisk=17000
