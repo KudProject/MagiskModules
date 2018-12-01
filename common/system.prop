@@ -2,7 +2,8 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 
-ro.build.description=mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys
-ro.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys
-ro.bootimage.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys
-ro.vendor.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys
+ro.build.description=mido-user 7.0 NRD90M V10.1.1.0.NCFMIFI release-keys
+ro.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V10.1.1.0.NCFMIFI:user/release-keys
+ro.bootimage.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V10.1.1.0.NCFMIFI:user/release-keys
+ro.vendor.build.fingerprint=xiaomi/mido/mido:7.0/NRD90M/V10.1.1.0.NCFMIFI:user/release-keys
+ro.build.version.security_patch=2018-10-01
