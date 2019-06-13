@@ -1,6 +1,6 @@
 id=BuildFPChanger-mido
 name=Build Fingerprint Changer - Redmi Note 4(X) Snapdragon
-version=V10.1.1.0.NCFMIFI
-versionCode=5
+version=V10.2.3.0.NCFMIXM
+versionCode=6
 author=Albert I (krasCGQ)
 description=Systemlessly override current ROM build fingerprint with CTS compliant one.
