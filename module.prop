@@ -4,4 +4,3 @@ version=V10.1.1.0.NCFMIFI
 versionCode=5
 author=Albert I (krasCGQ)
 description=Systemlessly override current ROM build fingerprint with CTS compliant one.
-minMagisk=17000
